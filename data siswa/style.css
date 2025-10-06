@@ -1,0 +1,54 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #f4f4f4;
+  padding: 30px; /* supaya isi tidak nempel ke pinggir layar */
+}
+
+.container {
+  max-width: 500px;   /* lebih lebar biar lega */
+  margin: 40px auto;  /* center + jarak dari atas */
+  background: #fff;
+  padding: 30px;      /* isi form lebih longgar */
+  border-radius: 12px;
+  box-shadow: 0px 4px 12px rgba(0,0,0,0.15);
+}
+
+h2 {
+  text-align: center;
+  color: white;
+  background: #a020f0;
+  padding: 12px;
+  border-radius: 8px;
+  margin-bottom: 20px;
+}
+
+form label {
+  display: block;
+  margin-top: 15px;
+  font-weight: bold;
+}
+
+form input {
+  width: 100%;
+  padding: 10px;
+  margin-top: 6px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  box-sizing: border-box; /* biar padding tidak bikin input keluar */
+}
+
+button {
+  margin-top: 20px;
+  width: 100%;
+  padding: 12px;
+  background: #a020f0;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #7a0fc4;
+}
